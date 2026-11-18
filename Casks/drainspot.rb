@@ -29,11 +29,15 @@ cask "drainspot" do
             quit:         "com.drainspotapp.mac"
 
   zap trash: [
-    "~/Library/Application Support/com.drainspotapp.mac",
+    "~/Library/Application Scripts/7Q3PY75VGH.com.drainspotapp.mac",
+    "~/Library/Application Scripts/com.drainspotapp.mac.widget",
     "~/Library/Caches/com.drainspotapp.mac",
+    "~/Library/Caches/com.drainspotapp.mac.agent",
+    "~/Library/Containers/com.drainspotapp.mac.widget",
     "~/Library/Group Containers/7Q3PY75VGH.com.drainspotapp.mac",
     "~/Library/HTTPStorages/com.drainspotapp.mac",
+    "~/Library/HTTPStorages/com.drainspotapp.mac.agent",
     "~/Library/Preferences/com.drainspotapp.mac.plist",
-    "~/Library/Saved Application State/com.drainspotapp.mac.savedState",
+    "~/Library/WebKit/com.drainspotapp.mac",
   ]
 end
