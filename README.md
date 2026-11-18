@@ -11,7 +11,7 @@ which background apps keep running, heat, the charger, and battery health and cy
 words and compared with what is normal for your own Mac. English and Arabic.
 
 - Requires a MacBook Air or MacBook Pro with macOS 14 Sonoma or later (Apple silicon gets every reading; Intel the basics).
-- Free forever, with an optional Pro plan ($4.99 a month or $19.99 once). Every Mac gets 7 days of Pro free.
+- Free forever, with an optional Pro plan ($2.99 a month or $9.99 once). Every Mac gets 7 days of Pro free.
 - Signed with Developer ID and notarized by Apple. No account; your history stays on your Mac.
 - Updates install inside the app, so `brew upgrade` is only needed for a new version number.
 
