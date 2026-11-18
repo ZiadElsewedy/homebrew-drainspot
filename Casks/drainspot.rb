@@ -19,6 +19,12 @@ cask "drainspot" do
 
   app "Drainspot.app"
 
+  # The recorder is a login item registered by the app; only the app can remove it cleanly.
+  uninstall_preflight do
+    executable = "#{appdir}/Drainspot.app/Contents/MacOS/Drainspot"
+    system_command executable, args: ["--unregister-agent"] if File.exist?(executable)
+  end
+
   uninstall launchctl: "com.drainspotapp.mac.tracker",
             quit:      "com.drainspotapp.mac"
 
